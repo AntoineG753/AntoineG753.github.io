@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('raleway/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'raleway-bold';
+    src: url('raleway/Raleway-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'raleway-extrabold';
+    src: url('raleway/Raleway-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* -----------------------------------BODY-------------------------------- */
+body{
+    font-family: 'raleway' , Impact, Haettenschweiler, sans-serif;  
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+#conteneur_body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* ----------------------------------HEADER------------------------------ */
+#header{
+    display: flex;
+    height: auto;
+    padding-top: 0px;
+    margin-right: 35px;
+    margin-left: 35px;
+    justify-content: space-between;
+}
+/*----- LOGO -----*/
+#logo{
+    padding: 15px;
+    padding-top: 25px;
+    width: 115px;
+}
+/*----- MENU -----*/
+.nav_header{
+    width: auto;
+    display: flex;
+    justify-content: right;
+}
+#ul_header{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 0px;
+}
+.li_header{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 45px;
+}
+.li_header:hover{
+    color: blue;
+}
+#hébergements{
+    font-weight: bold;
+}
+#activité{
+    font-family: raleway;
+    font-weight: bold;
+}
+#sinscrire{
+    color: #0065FC;
+    font-family: raleway-extrabold;
+}
+.a_header{
+    position: relative;
+    text-decoration:none;
+    color: black;
+}
+.a_header:hover{
+    color:#0065FC;
+}
+.a_header:after{
+    content: '';
+    top: 0px;
+    width: 0%;
+    height: 2px;
+    transition: 0.1s;
+}
+.a_header:hover:after{
+    background-color: #0065FC;
+    width:100%;
+    position: absolute;
+    margin-left: 0%;
+} 
+/* ---------SECTION 1--------- */
+
+
+/* ---------SECTION 2--------- */
+
+
+/* ---------SECTION 3--------- */
+
+
+/* ---------SECTION 4--------- */
