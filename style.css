@@ -16,6 +16,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'raleway-semibold';
+    src: url('raleway/Raleway-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 /* -----------------------------------BODY-------------------------------- */
 body{
     font-family: 'raleway' , Impact, Haettenschweiler, sans-serif;  
@@ -28,6 +34,12 @@ body{
 #conteneur_body{
     margin-left: 50px;
     margin-right: 50px;
+}
+h1{
+    font-family: 'raleway-extrabold';
+}
+p{
+    font-family: raleway-semibold;
 }
 /* ----------------------------------HEADER------------------------------ */
 #header{
@@ -61,7 +73,7 @@ body{
     padding-top: 45px;
 }
 .li_header:hover{
-    color: blue;
+    color: #0065FC;
 }
 #hébergements{
     font-weight: bold;
@@ -96,8 +108,57 @@ body{
     margin-left: 0%;
 } 
 /* ---------SECTION 1--------- */
+#div_sc1{
+    border: 1px solid black;
+    line-height: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.span_taille{
+    font-size: 18px;
+}
+#form_sc1{
+    display: flex;
+    height: 50px;
+    width: 470px;
+    margin-top: 10px;
+}
+#iconsaisie{
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+}
+#icon_sc1{
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    width: 57px;
+    height: 100%;
+}
+#icon_sc1.fas.fa-map-marker-alt::before{
+    font-size: 25px;
+    display: block;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+#saisie_sc1{
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    font-size: 20px;
+    width: 270px;
+    height: 100%;
+    font-family: raleway-bold;
 
-
+}
+#boutton_sc1{
+    font-size: 20px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    width: 150px;
+    height: 100%;
+}
 /* ---------SECTION 2--------- */
 
 
