@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'raleway-light';
+    src: url('raleway/Raleway-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'raleway';
     src: url('raleway/Raleway-Regular.ttf');
     font-weight: normal;
@@ -61,6 +67,7 @@ p{
     width: auto;
     display: flex;
     justify-content: right;
+    margin-right: 20px;
 }
 #ul_header{
     display: inline-flex;
@@ -79,7 +86,6 @@ p{
     font-weight: bold;
 }
 #activité{
-    font-family: raleway;
     font-weight: bold;
 }
 #sinscrire{
@@ -110,7 +116,6 @@ p{
 /* ---------SECTION 1--------- */
 /* ---------TEXT--------- */
 #div_sc1{
-    border: 1px solid black;
     line-height: 10px;
     font-size: 16px;
     display: flex;
@@ -256,7 +261,190 @@ p{
     padding-right: 13px;
 }
 /* ---------SECTION 2--------- */
-
+.extrabold{
+    font-family: raleway-extrabold;
+    font-size: 19px;
+    text-align: left;
+}
+.euro_anonce{
+    font-family: raleway-extrabold;
+}
+#div_sc2{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 30px;
+    line-height: 25px;
+    height: auto;
+}
+.p_anonce{
+    margin-top: 10px;
+    font-family: raleway-light;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align-last: left;
+    margin-left: 15px;
+}
+.fa-star {
+	color: #F2F2F2;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+.fa-star.blue {
+	color: #0065fC;
+}
+.a_global{
+    text-decoration: none;
+    color: black;
+}
+/* ---------HEBERGEMENTS--------- */
+#hebergements{
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 950px;
+    height: auto;
+    min-height: 750px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+#div_img_hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.anonce_hebergements{
+    
+    background-color: white;
+    width: 275px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.img_hebergements{
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 155px;
+}
+.stars{
+    display: flex;
+    position: relative;
+    margin-left: 13px;
+}
+#img1{
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+}
+#img2{
+    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+}
+#img3{
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+}
+#img4{
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img5{
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-size: cover;
+}
+#img6{
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#afficher-plus{
+    font-family: raleway-extrabold;
+    font-size: 20px;
+}
+/* ---------LES PLUS POPULAIRES--------- */
+#populaires{
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 500px;
+    height: auto;
+    min-height: 750px;
+    margin-left: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-top: 0%;
+}
+.titre_sc2{
+    padding-top: 5px;
+}
+.fa-chart-line{
+    font-size: 30px;
+}
+#div-icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-chart-line{
+    margin-top: 15px;
+}
+#div_img_populaires{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 630px;
+}
+.anonce_populaires{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 478px;
+    height: 165px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+.img_populaires{
+    display: flex;
+    background-color: black;
+    border-radius: 20px 0px 0px 20px;
+    width: 170px;
+    height: 100%;
+}
+#div_stars_populaires{
+    position: absolute;
+    bottom: 0px;
+}
+.stars_populaires{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 0%;
+}
+.p_anonce_populaires{
+    margin-top: 10px;
+    font-family: raleway-light;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+.div_text_populaires{
+    position: relative;
+    width: 200px;
+    height: 155px;
+    text-align: left;
+}
+#img1_populaires{
+    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img2_populaires{
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: cover;
+}
+#img3_populaires{
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 /* ---------SECTION 3--------- */
 
