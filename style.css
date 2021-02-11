@@ -580,9 +580,21 @@ p{
 #footer{
     max-width: 1720px;
     display: flex;
-    align-items: center;
     background-color: #F2F2F2;
-    height: 150px;
+    height: 130px;
     margin-left: auto;
     margin-right: auto;
+    padding: 45px 400px 45px 45px;
+    justify-content: space-between;
+}
+.p_footer{
+    margin-top: 0px;
+}
+.div_footer{
+    
+}
+.ul_footer{
+    padding-left: 0px;
+    list-style: none;
+    line-height: 35px;
 }
