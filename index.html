@@ -9,6 +9,7 @@
     <body>
         
     <!-- HEADER= logo + menu -->
+    <div id="conteneur_body">
     <header id="header">
             <div class="logo_header">
                     <img id="logo" src="images/logo/Reservia@3x.png" alt="logo"> <!-- LOGO -->
@@ -24,7 +25,7 @@
                         </nav>
     </header>
         <!---------SECTION 1=Champ de recherche + filtre --------->
-        <div id="conteneur_body">
+        
             <section>
                 <div id="div_sc1">
                     <div>
@@ -38,10 +39,10 @@
                     <div class="filtre_sc1">
                         <form id="filtre">
                             <h2>Filtres</h2>
-                            <button class="boutton_filtre"><span><i class="fas fa-money-bill-wave icon_filtre"></i></span><span class="text_info">Économique</span></button>
-                            <button class="boutton_filtre"><span><i class="fas fa-child icon_filtre"></i></span><span class="text_info">Familial</span></button>
-                            <button class="boutton_filtre"><span><i class="fas fa-heart icon_filtre"></i></span><span class="text_info">Romantique</span></button>
-                            <button class="boutton_filtre"><span><i class="fas fa-dog icon_filtre"></i></span><span class="text_info">Animaux autorisés</span></button>
+                            <button class="boutton_filtre"><i class="fas fa-money-bill-wave icon_filtre"></i><span class="text_info">Économique</span></button>
+                            <button class="boutton_filtre"><i class="fas fa-child icon_filtre"></i><span class="text_info">Familial</span></button>
+                            <button class="boutton_filtre"><i class="fas fa-heart icon_filtre"></i><span class="text_info">Romantique</span></button>
+                            <button class="boutton_filtre"><i class="fas fa-dog icon_filtre"></i><span class="text_info">Animaux autorisés</span></button>
                         </form>
                     </div>
                     <div id="information_sc1">
@@ -58,7 +59,7 @@
                        <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements" id="img1"></div>
-                                <p class="p_anonce"><span class="extrabold">Auberge la Cannebière</span><br><span class="text_sc2">Nuit à partire de</span><span class="euro_anonce"> 25€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Auberge la Cannebière</span><br><span class="text_sc2">Nuit à partire de</span><span class="euro_anonce"> 25€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -72,7 +73,7 @@
                         <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements" id="img2"></div>
-                                <p class="p_anonce"><span class="extrabold">Hôtel du port</span><br><span class="text_sc2">Nuit à partire de 52</span><span class="euro_anonce">€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Hôtel du port</span><br><span class="text_sc2">Nuit à partire de 52</span><span class="euro_anonce">€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -86,7 +87,7 @@
                         <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements"id="img3"></div>
-                                <p class="p_anonce"><span class="extrabold">Hôtel Les mouettes</span><br><span class="text_sc2">Nuit à partire de 76</span><span class="euro_anonce">€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Hôtel Les mouettes</span><br><span class="text_sc2">Nuit à partire de 76</span><span class="euro_anonce">€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -100,7 +101,7 @@
                         <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements" id="img4"></div>
-                                <p class="p_anonce"><span class="extrabold">Hôtel de la mer</span><br><span class="text_sc2">Nuit à partire de 46</span><span class="euro_anonce">€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Hôtel de la mer</span><br><span class="text_sc2">Nuit à partire de 46</span><span class="euro_anonce">€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -114,7 +115,7 @@
                         <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements" id="img5"></div>
-                                <p class="p_anonce"><span class="extrabold">Auberge Le Panier</span><br><span class="text_sc2">Nuit à partire de </span><span class="euro_anonce">23€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Auberge Le Panier</span><br><span class="text_sc2">Nuit à partire de </span><span class="euro_anonce">23€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -128,7 +129,7 @@
                         <a href="#" class="a_global">
                             <section class="anonce_hebergements">
                                 <div class="img_hebergements" id="img6"></div>
-                                <p class="p_anonce"><span class="extrabold">Hôtel chez Amina</span><br><span class="text_sc2">Nuit à partire de 96</span><span class="euro_anonce">€</span></p>
+                                <p class="p_anonce"><span class="sc2_bold">Hôtel chez Amina</span><br><span class="text_sc2">Nuit à partire de 96</span><span class="euro_anonce">€</span></p>
                             
                                 <span class="stars">
                                     <i class="fa fa-star blue"></i>
@@ -203,7 +204,68 @@
                 </section>
             </div>
         <!---------SECTION 3= Activité--------->
+        <section id="section_3">
+            <p class="extrabold"><h1>Activités à Marseille</h1></p>
+            <div id="div_anonce_sc3">
+                <a href="#" class="a_global">
+                    <section id="anonce_1">
+                        <div id="img_sc3_1">
+
+                        </div>
+                        <p class="bold p_sc3">Vieux Port</p>
+                    </section>
+                </a>
+                <span class="colone">
+                    <a href="#" class="a_global">
+                        <section id="anonce_2">
+                            <div id="img_sc3_2">
+
+                            </div>
+                            <p class="bold p_sc3">Fort de Pomègues</p>
+                        </section>
+                     </a>
+                     <a href="#" class="a_global">
+                        <section id="anonce_3">
+                            <div id="img_sc3_3">
+
+                            </div>
+                            <p class="bold p_sc3">Îles du Frioul</p>
+                        </section>
+                    </a>
+                </span>
+                <a href="#" class="a_global">
+                    <section id="anonce_4">
+                        <div id="img_sc3_4">
+
+                         </div>
+                        <p class="bold p_sc3">Parc National des Calanques</p>   
+                    </section>
+                </a>
+                <span class="colone">
+                    <a href="#" class="a_global">
+                        <section id="anonce_5">
+                            <div id="img_sc3_5">
+
+                            </div>
+                            <p class="bold p_sc3">Notre-Dame-de-la-Garde</p>
+                        </section>
+                    </a>
+                    <a href="#" class="a_global">
+                        <section id="anonce_6">
+                            <div id="img_sc3_6">
+
+                            </div>
+                            <p class="bold p_sc3">Parc Longchamp</p>
+                        </section>
+                    </a>
+                </span>
+            </div>
+        </section>
     </div>
         <!---------FOOTER= Apropos + Nos hebergements + Assistance --------->
+        <footer id="footer">
+            
+        </footer>
+    
     </body>
 </html>
