@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="Petite_resolution.css"/>
         <title>Reservia</title>
     </head>
     <body>
@@ -15,12 +16,15 @@
                     <img id="logo" src="images/logo/Reservia@3x.png" alt="logo"> <!-- LOGO -->
                 </div>   
  <!----------- MENU ------------------------------------------->   
-                
                         <nav class="nav_header">
-                            <ul id="ul_header">
-                                <a href="#hebergements" title="Hébergements" class="a_header"><li class="li_header" id="hébergements">Hébergements</li></a>
-                                <a href="#section_3" title="Activités" class="a_header"><li class="li_header" id="activité">Activités</li></a>
-                                <a href="#" title="S'inscrire" class="a_header"><li class="li_header" id="sinscrire"><span class="test">S'inscrire</span></li></a>
+                            <ul class="ul_header" id="ul_header_media">
+                                <a href="#hebergements" title="Hébergements" class="a_header a_header_media"><li class="li_header" id="hébergements">Hébergements</li></a>
+                                <a href="#section_3" title="Activités" class="a_header" class="a_header a_header_media"><li class="li_header" id="activité">Activités</li></a>
+                            </ul>
+                        </nav>
+                        <nav id="sinscrire_media">
+                            <ul class="ul_header" id="ul_header_media_sinscrire">
+                                <a href="#" title="S'inscrire" id="a_header_media"><li class="li_header" id="sinscrire"><span class="test">S'inscrire</span></li></a>
                             </ul>
                         </nav>
     </header>

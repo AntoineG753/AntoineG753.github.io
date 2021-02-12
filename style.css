@@ -63,7 +63,7 @@ p{
     display: flex;
     height: auto;
     padding-top: 0px;
-    justify-content: space-between;
+    
 }
 /*----- LOGO -----*/
 #logo{
@@ -71,17 +71,21 @@ p{
     padding-top: 25px;
     width: 115px;
 }
+.logo_header{
+    margin-right: auto;
+}
 /*----- MENU -----*/
 .nav_header{
     width: auto;
     display: flex;
-    justify-content: right;
-    margin-right: 20px;
 }
-#ul_header{
+.ul_header{
     display: inline-flex;
     list-style: none;
+    padding-bottom: 17px;
     margin-top: 0px;
+    align-items: center;
+    padding-left: 20px;
 }
 .li_header{
     padding-right: 30px;
@@ -90,6 +94,9 @@ p{
 }
 .li_header:hover{
     color: #0065FC;
+}
+#a_header_media{
+    text-decoration: none;
 }
 #hébergements{
     font-weight: bold;

@@ -1,0 +1,87 @@
+/* -------- HEADER --------*/
+#conteneur_body{
+    width: 100%;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+}
+.logo_header{
+    width:  auto;
+    margin-left: 40px;
+}
+#logo{
+    width: 290px;
+    padding-left: 10px;
+}
+.ul_header{
+    font-size: 50px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+#ul_header_media_sinscrire{
+    display: flex;
+    margin-top: 45px;
+}
+#ul_header_media{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px;
+}
+.li_header{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0px;
+    font-size: 40px;
+}
+#a_header_media{
+    text-decoration: none;
+}
+.a_header{
+    text-decoration:none;
+    color: black;
+    width: 100%;
+    align-items: center;
+}
+.a_header:hover{
+    color:#0065FC;
+}
+.a_header:after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    transition: 0.1s;
+    margin-top: 75px;
+}
+.a_header:hover:after{
+    background-color: #0065FC;
+    width:100%;
+} 
+#sinscrire_media{
+    position: absolute;
+    padding-top: 35px;
+    right: 0px;
+    margin-right: 50px;
+}
+.nav_header{
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    border-bottom: 4px solid #F2F2F2;
+    margin-top: 30px;
+}
+
+/* -------- SECTION 1 --------*/
+
+
+/* -------- SECTION 2 --------*/
+
+
+/* -------- SECTION 3 --------*/
+
+
+/* -------- FOOTER --------*/
