@@ -604,8 +604,8 @@ p{
     justify-content: center;
 }
 #contenaire_div_footer{
-    width: 1335px;
-    max-width: 1335px;
+    width: 1355px;
+    max-width: 1355px;
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
