@@ -35,7 +35,6 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    
     justify-content: center;
 }
 #conteneur_body{
@@ -43,9 +42,9 @@ body{
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1620px;
-    padding-left: 3%;
-    padding-right: 3%;
+    max-width: 1720px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 h1{
     font-family: 'raleway-extrabold';
@@ -183,29 +182,33 @@ p{
     height: 100%;
 }
 /* ---------FILTRES--------- */
-.filtre_sc1{
-    margin-top: 25px;
-}
+
 #filtre{
     width: 100%;
     display: flex;
     text-align: center;
+    margin-top: 35px;
+    width: 75%;
+    height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .boutton_filtre{
     font-family: raleway-bold;
     font-size: 20px;
     background-color: white;
-    border-bottom: 2px solid #F2F2F2;
-    border-top: 2px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2;
+    border-top: 3px solid #F2F2F2;
     border-left: 0px solid #F2F2F2;
-    border-right: 2px solid #F2F2F2;
+    border-right: 3px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     width: auto;
     height: 50px;
     padding-left: 0px;
-    margin-left: 30px;
+    position: relative;
 }
 .boutton_filtre:hover{
     transition: 0.1s;
@@ -280,7 +283,9 @@ p{
 }
 #div_sc2{
     display: flex;
-    align-items:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 30px;
     line-height: 25px;
     height: auto;
@@ -314,11 +319,15 @@ p{
     min-height: 750px;
     padding-right: 35px;
     padding-left: 35px;
+    margin-bottom: 30px;
 }
 #div_img_hebergements{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+#HAM_sc2{
+    margin-bottom: 25px;
 }
 .anonce_hebergements{
     
@@ -333,39 +342,17 @@ p{
 .img_hebergements{
     display: block;
     border-radius: 20px 20px 0px 0px;
-    width: 100%;
+    width: 275px;
     height: 155px;
+    object-fit: cover;
+}
+.img_hebergements_p{
+    margin-top: 0px;
 }
 .stars{
     display: flex;
     position: relative;
     margin-left: 13px;
-}
-#img1{
-    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-    background-size: cover;
-}
-#img2{
-    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-size: cover;
-}
-#img3{
-    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-size: cover;
-}
-#img4{
-    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#img5{
-    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-size: cover;
-}
-#img6{
-    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
 }
 #afficher-plus{
     font-family: raleway-extrabold;
@@ -378,21 +365,24 @@ p{
     width: 500px;
     height: auto;
     min-height: 750px;
-    margin-left: 35px;
     padding-right: 35px;
     padding-left: 35px;
     margin-top: 0%;
+    margin-bottom: 30px;
 }
 .titre_sc2{
-    padding-top: 5px;
+    margin-bottom: 0px;
+    font-size: 25px;
 }
 .fa-chart-line{
     font-size: 30px;
+    padding-top: 7px;
 }
 #div-icone{
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 .fa-chart-line{
     margin-top: 15px;
@@ -414,11 +404,15 @@ p{
     box-shadow: 0px 2px 5px 4px rgb(230, 230, 230);
 }
 .img_populaires{
-    display: flex;
     background-color: black;
     border-radius: 20px 0px 0px 20px;
     width: 170px;
-    height: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+.img_populaires_p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #div_stars_populaires{
     position: absolute;
@@ -458,11 +452,13 @@ p{
 }
 /* ---------SECTION 3--------- */
 #section_3{
-    margin-top: 40px;
     margin-bottom: 70px;
 }
 .p_sc3{
     margin-left: 15px;
+}
+.titre_sc3{
+    font-size: 25px;
 }
 .colone{
     display: flex;
@@ -473,6 +469,7 @@ p{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 #anonce_1{
     display: flex;
@@ -482,7 +479,6 @@ p{
     width:355px;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
-
 }
 #anonce_2{
     display: flex;
@@ -529,62 +525,93 @@ p{
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
 }
-#img_sc3_1{
-    width: 100%;
+#img_activité_p1{
+    margin: 0px;
+    width: 355px;
     height: 100%;
-    border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
 }
-#img_sc3_2{
-    width: 100%;
-    height: 100%;
+#img_activité1{
+    object-fit: cover;
+    width: 355px;
+    height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
 }
-#img_sc3_3{
-    width: 100%;
+#img_activité_p2{
+    margin: 0px;
+    width: 355px;
     height: 100%;
-    border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-    background-size: cover;
 }
-#img_sc3_4{
-    width: 100%;
-    height: 100%;
+#img_activité2{
+    object-fit: cover;
+    object-position: center;
+    width: 355px;
+    height: 224px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
 }
-#img_sc3_5{
-    width: 100%;
+#img_activité_p3{
+    margin: 0px;
+    width: 355px;
     height: 100%;
-    border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-    background-size: cover;
-    
 }
-#img_sc3_6{
-    width: 100%;
-    height: 100%;
+#img_activité3{
+    object-fit: cover;
+    object-position: top;
+    width: 355px;
+    height: 164px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-    background-size: cover;
-    
+}
+#img_activité_p4{
+    margin: 0px;
+    width: 355px;
+    height: 100%;
+}
+#img_activité4{
+    object-fit: cover;
+    width: 355px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+#img_activité_p5{
+    margin: 0px;
+    width: 355px;
+    height: 100%;
+}
+#img_activité5{
+    object-fit: cover;
+    object-position: top;
+    width: 355px;
+    height: 174px;
+    border-radius: 20px 20px 0px 0px;
+}
+#img_activité_p6{
+    margin: 0px;
+    width: 355px;
+    height: 100%;
+}
+#img_activité6{
+    object-fit: cover;
+    object-position: top;
+    width: 355px;
+    height: 224px;
+    border-radius: 20px 20px 0px 0px;
 }
 /* ---------FOOTER--------- */
 #footer{
-    max-width: 1720px;
     display: flex;
+    width: auto;
     background-color: #F2F2F2;
-    height: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 45px 400px 45px 45px;
+    height: auto;
+    justify-content: center;
+}
+#contenaire_div_footer{
+    width: 1335px;
+    max-width: 1335px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    height: auto;
+    margin-left: 35px;
+    padding: 40px 400px 40px 0px;
     justify-content: space-between;
 }
 .p_footer{
