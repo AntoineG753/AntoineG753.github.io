@@ -78,43 +78,50 @@
 #div_sc1{
     margin-left: 35px;
     margin-right: 35px;
-    line-height: 33px;
+    line-height: 35px;
 }
 h1{
-    font-size: 60px;
-    align-items: center;
-    justify-content: center;
+    font-size: 58px;
     line-height: 70px;
 }
-.span_taille{
-    font-size: 33px;
+#p_sc1{
+    font-size: 24px;
 }
 #form_sc1{
     width: 100%;
-    height: 110px;
+    height: 140px;
+    margin-top: 70px;
 }
 #saisie_sc1{
     font-size: 45px;
     font-family: raleway-extrabold;
     text-decoration: black;
+    padding-left: 30px;
 }
 #iconsaisie{
     width: 100%;
-    border-radius: 35px 0px 0px 35px;
+    border-radius: 45px 0px 0px 45px;
 }
 #icon_sc1{
-    width: 120px;
-    border-radius: 35px 0px 0px 35px;
+    width: 180px;
+    border-radius: 45px 0px 0px 45px;
 }
 #icon_sc1.fas.fa-map-marker-alt::before{
-    font-size: 40px;
+    font-size: 55px;
     display: block;
-    margin-left: 33%;
-    margin-top: 27%;
+    margin-left: 35%;
+    margin-top: 30%;
 }
 #boutton_sc1{
-    border-radius: 35px;
-    width: 110px;
+    border-radius: 45px;
+    width: 145px;
+    z-index: 1;
+}
+#boutton_sc2{
+    border-radius: 45px;
+    width: 145px;
+    z-index: 2;
+    font-size: 45px;
 }
 
 /* -------- SECTION 2 --------*/
