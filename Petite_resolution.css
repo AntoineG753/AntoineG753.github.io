@@ -151,6 +151,9 @@ h1{
     border-right: 6px solid #F2F2F2;
     border-bottom: 6px solid #F2F2F2;
 }
+.boutton_filtre:hover{
+    border-left: 6px solid #F2F2F2;
+}
 .icon_filtre{
     border-radius: 100px;
     height: 130px;
