@@ -1,6 +1,9 @@
 /* -------- HEADER --------*/
+body{
+    
+}
 #conteneur_body{
-    width: 100%;
+    width: auto;
     padding: 0px;
 }
 #header{
@@ -224,6 +227,11 @@ h1{
 .text_sc2{
     font-size: 45px;
 }
+/* -------- Hébergements --------*/
+#hebergements{
+    width: auto;
+}
+
 /* -------- SECTION 3 --------*/
 
 
