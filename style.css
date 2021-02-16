@@ -479,20 +479,6 @@ p{
     height: 155px;
     text-align: left;
 }
-#img1_populaires{
-    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#img2_populaires{
-    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-    background-size: cover;
-}
-#img3_populaires{
-    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
 /* ---------SECTION 3--------- */
 #section_3{
     margin-bottom: 70px;
@@ -649,7 +635,7 @@ p{
     height: auto;
     justify-content: center;
 }
-#contenaire_div_footer{
+#conteneure_div_footer{
     width: 1355px;
     max-width: 1355px;
     display: flex;
