@@ -190,7 +190,6 @@ h1{
 #populaires{
     display: block;
     border-radius: 0px;
-<<<<<<< HEAD
     width: 980px;
     height: 1450px;
     padding-top: 70px;
@@ -203,15 +202,6 @@ h1{
     width: auto;
     margin-right: 30px;
     padding-bottom: 0px;
-=======
-    width: 950px;
-    height: 1450px;
-    padding-top: 70px;
-    margin-bottom: 60px;
-}
-#div-icone{
-    margin-bottom: 60px;
->>>>>>> master
 }
 .titre_sc2{
     font-size: 60px;
@@ -254,19 +244,11 @@ h1{
     line-height: 55px;
 }
 .text_populaires{
-<<<<<<< HEAD
     font-size: 45px;
 }
 .euro_anonce{
     font-size: 45px;
 }
-=======
-    font-size: 45px;
-}
-.euro_anonce{
-    font-size: 45px;
-}
->>>>>>> master
 .dimension_text_populaires_media{
     display: block;
     padding-top: 35px;
@@ -289,10 +271,7 @@ h1{
     width: 100%;
     height: 550px;
     border-radius: 50px;
-<<<<<<< HEAD
     margin-bottom: 35px;
-=======
->>>>>>> master
 }
 .img_hebergements{
     height: 320px;
