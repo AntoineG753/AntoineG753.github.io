@@ -241,12 +241,9 @@ p{
 }
 .boutton_filtre:hover{
     transition: 0.1s;
-    border-left: 2px solid #F2F2F2;
-    border-right: 0px none #F2F2F2;
-    padding-right: 0px;
     background-color: rgb(94, 177, 101);
     display: flex;
-    flex-direction: row-reverse;
+    color: white;
 }
 .icon_filtre{
     background-color: #DEEBFF;
@@ -299,6 +296,7 @@ p{
 .text_info{
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 50px;
 }
 /* ---------SECTION 2--------- */
 .sc2_bold{
@@ -416,15 +414,13 @@ p{
 .fa-chart-line{
     font-size: 30px;
     padding-top: 7px;
+    margin-top: 15px;
 }
 #div-icone{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 20px;
-}
-.fa-chart-line{
-    margin-top: 15px;
 }
 #div_img_populaires{
     display: flex;
