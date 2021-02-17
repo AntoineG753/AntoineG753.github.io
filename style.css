@@ -234,12 +234,10 @@ p{
     border-right: 3px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     width: auto;
     height: 50px;
     padding-left: 0px;
-    position: relative;
 }
 .boutton_filtre:hover{
     transition: 0.1s;
