@@ -117,17 +117,19 @@ h1{
 #icon_sc1{
     width: 140px;
     border-radius: 43px 0px 0px 43px;
+    height: 110px;
 }
 #icon_sc1.fas.fa-map-marker-alt::before{
     font-size: 45px;
     display: block;
-    margin-left: 35%;
-    margin-top: 27%;
+    margin-left: 38%;
+    margin-top: 25%;
 }
 #boutton_sc1{
     border-radius: 45px;
     width: 120px;
     z-index: 1;
+    visibility: hidden;
 }
 #boutton_sc2{
     border-radius: 0px 45px 45px 0px;
@@ -139,6 +141,7 @@ h1{
 #filtre{
     width: 100%; 
     justify-content: space-around;
+    flex-direction: column;
 }
 #titre_filtre{
     font-family: raleway-extrabold;
@@ -285,6 +288,7 @@ h1{
     height: 220px;
     border-radius: 50px 50px 0px 0px;
     margin-bottom: 10px;
+    width: 100%;
 }
 .sc2_bold{
     font-size: 27px;
@@ -436,6 +440,7 @@ h1{
     flex-direction: row;
     height: auto;
     padding-right: 35px;
+    padding-left: 35px;
 }
 .p_footer{
     font-size: 35px;
