@@ -95,7 +95,7 @@ h1{
 }
 /* --- Champ de recherche --- */
 #form_sc1{
-    width: 650px;
+    width: 100%;
     height: 110px;
     margin-top: 70px;
 }
