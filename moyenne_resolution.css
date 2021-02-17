@@ -82,6 +82,7 @@
     margin-right: 35px;
     line-height: 35px;
     height: 1010px;
+    align-items: center;
 }
 h1{
     font-size: 50px;
@@ -96,7 +97,7 @@ h1{
 }
 /* --- Champ de recherche --- */
 #form_sc1{
-    width: 100%;
+    width: 750px;
     height: 110px;
     margin-top: 70px;
 }
