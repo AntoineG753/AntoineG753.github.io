@@ -81,13 +81,13 @@
     margin-left: 35px;
     margin-right: 35px;
     line-height: 35px;
-    height: auto;
+    height: 1010px;
 }
 h1{
     font-size: 50px;
     line-height: 70px;
     text-align: center;
-    color: blue;
+    color: red;
 }
 #p_sc1{
     font-size: 30px;
