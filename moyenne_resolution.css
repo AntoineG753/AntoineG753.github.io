@@ -106,7 +106,7 @@ h1{
     text-decoration: black;
     padding-left: 30px;
     display: block;
-    height: 100px;
+    border: none;
 }
 #iconsaisie{
     width: 100%;
@@ -128,15 +128,10 @@ h1{
     z-index: 1;
 }
 #boutton_sc2{
-    border-radius: 45px;
+    border-radius: 0px 45px 45px 0px;
     width: 120px;
     z-index: 2;
     font-size: 45px;
-}
-#span_form_sc1{
-    border-top: 2px solid #F2F2F2;
-    border-bottom: 2px solid #F2F2F2;
-    border-radius: 0px 50px 50px 0px;
 }
 /* --- FILTRE --- */
 #filtre{
