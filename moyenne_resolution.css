@@ -81,7 +81,6 @@
     margin-left: 35px;
     margin-right: 35px;
     line-height: 35px;
-    align-items: center;
 }
 h1{
     font-size: 50px;
@@ -105,7 +104,7 @@ h1{
     font-family: raleway-extrabold;
     text-decoration: black;
     padding-left: 30px;
-    height: auto;
+    height: 100%;
 }
 #iconsaisie{
     width: 100%;
@@ -256,11 +255,11 @@ h1{
     height: 200px;
 }
 .titre_populaires{
-    font-size: 35px;
+    font-size: 33px;
     line-height: 35px;
 }
 .text_populaires{
-    font-size: 30px;
+    font-size: 25px;
 }
 .euro_anonce{
     font-size: 25px;
@@ -299,7 +298,7 @@ h1{
     margin-left: 30px;
 }
 .sc2_bold{
-    font-size: 30px;
+    font-size: 27px;
 }
 .text_sc2{
     font-size: 25px;
