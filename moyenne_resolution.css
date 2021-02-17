@@ -105,6 +105,7 @@ h1{
     font-family: raleway-extrabold;
     text-decoration: black;
     padding-left: 30px;
+    height: 105px;
 }
 #iconsaisie{
     width: 100%;
@@ -112,7 +113,7 @@ h1{
 }
 #icon_sc1{
     width: 140px;
-    border-radius: 45px 0px 0px 45px;
+    border-radius: 43px 0px 0px 43px;
 }
 #icon_sc1.fas.fa-map-marker-alt::before{
     font-size: 45px;
@@ -149,13 +150,11 @@ h1{
     justify-content: space-around;
 }
 .boutton_filtre{
-    font-family: raleway-bold;
     font-size: 30px;
     border-radius: 100px;
     height: 100px;
     width: auto;
     margin-bottom: 35px;
-    position: relative;
     border-top: 6px solid #F2F2F2;
     border-left: 0px solid #F2F2F2;
     border-right: 6px solid #F2F2F2;
