@@ -87,7 +87,7 @@ h1{
     font-size: 50px;
     line-height: 70px;
     text-align: center;
-    color: red;
+    color: blue;
 }
 #p_sc1{
     font-size: 30px;
@@ -152,7 +152,7 @@ h1{
 .boutton_filtre{
     font-size: 30px;
     border-radius: 100px;
-    height: 100px;
+    height: 90px;
     width: auto;
     margin-bottom: 35px;
     border-top: 6px solid #F2F2F2;
@@ -165,13 +165,13 @@ h1{
 }
 .icon_filtre{
     border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
 .text_info{
     padding-left: 25px;
-    padding-right: 35px;
-    font-size: 35px;
+    padding-right: 30px;
+    font-size: 30px;
     font-family: raleway-bold;
 }
 #information_sc1{
