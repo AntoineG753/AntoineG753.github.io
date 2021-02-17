@@ -40,8 +40,8 @@ body{
 #conteneur_body{
     display: flex;
     flex-direction: column;
-    margin-left: auto
-    margin-right: auto
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1720px;
     padding-left: 2%;
     padding-right: 2%;
@@ -61,7 +61,7 @@ p{
 /* ----------------------------------HEADER------------------------------ */
 #header{
     display: flex;
-    height: auto
+    height: auto;
     padding-top: 0px;
     
 }
@@ -72,11 +72,11 @@ p{
     width: 115px;
 }
 .logo_header{
-    margin-right: auto
+    margin-right: auto;
 }
 /*----- MENU -----*/
 .nav_header{
-    width: auto
+    width: auto;
     display: flex;
 }
 .ul_header{
@@ -160,24 +160,21 @@ p{
     background-color: #F2F2F2;
     border-radius: 13px 0px 0px 13px;
     width: 57px;
-    height: auto;
+    height: 50px;
 }
 #icon_sc1.fas.fa-map-marker-alt::before{
     font-size: 25px;
     display: block;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: 25%;
 }
 #saisie_sc1{
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    border-right: none;
-    border-left: none;
     font-size: 20px;
     width: auto;
     height: auto;
     font-family: raleway-bold;
     padding-left: 20px;
+    border: hidden;
 }
 #span_form_sc1{
     display: flex;
@@ -191,7 +188,7 @@ p{
     border: none;
     border-radius: 0px 15px 15px 0px;
     width: 150px;
-    height: auto;
+    height: 50px;
     z-index: 2;
 }
 #boutton_sc2{
@@ -203,6 +200,7 @@ p{
     width: 150px;
     height: auto;
     z-index: 1;
+    visibility: hidden;
 }
 /* ---------FILTRES--------- */
 
@@ -210,8 +208,8 @@ p{
     display: flex;
     text-align: center;
     margin-top: 35px;
-    width: auto
-    height: auto
+    width: auto;
+    height: auto;
     flex-wrap: wrap;
 }
 #span_boutton_filtre{
@@ -235,7 +233,7 @@ p{
     border-radius: 25px 25px 25px 25px;
     display: flex;
     align-items: center;
-    width: auto
+    width: auto;
     height: 50px;
     padding-left: 0px;
 }
@@ -337,7 +335,7 @@ p{
     border-radius: 20px;
     background-color: #F2F2F2;
     width: 1100px;
-    height: auto
+    height: auto;
     min-height: 750px;
     padding-right: 35px;
     padding-left: 35px;
@@ -364,7 +362,7 @@ p{
 .img_hebergements{
     display: block;
     border-radius: 20px 20px 0px 0px;
-    width: auto;
+    width: 100%;
     height: 155px;
     object-fit: cover;
 }
@@ -391,7 +389,7 @@ p{
     border-radius: 20px;
     background-color: #F2F2F2;
     width: 430px;
-    height: auto
+    height: auto;
     min-height: 750px;
     padding-right: 35px;
     padding-left: 35px;
@@ -616,9 +614,9 @@ p{
 /* ---------FOOTER--------- */
 #footer{
     display: flex;
-    width: auto
+    width: auto;
     background-color: #F2F2F2;
-    height: auto
+    height: auto;
     justify-content: center;
 }
 #conteneure_div_footer{
@@ -627,7 +625,7 @@ p{
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
-    height: auto
+    height: auto;
     margin-left: 35px;
     padding: 40px 400px 40px 0px;
     justify-content: space-between;
