@@ -233,19 +233,14 @@ h1{
     width: 600px;
     height: 330px;
 }
-.p_anonce_populaires{
-    margin-top: 40px;
-    margin-left: 45px;
-    font-size: 50px;
-    width: 500px;
-    height: 300px;
-}
 .titre_populaires{
     font-size: 50px;
     line-height: 55px;
+    margin-left: 45px;
 }
 .text_populaires{
     font-size: 45px;
+    margin-left: 45px;
 }
 .euro_anonce{
     font-size: 45px;
@@ -278,21 +273,21 @@ h1{
 .img_hebergements{
     height: 320px;
     border-radius: 50px 50px 0px 0px;
-}
-.p_anonce{
-    line-height: 55px;
-    margin-left: 30px;
+    margin-bottom: 40px;
 }
 .sc2_bold{
     font-size: 50px;
+    margin-bottom: 45px;
+    margin-left: 30px;
 }
 .text_sc2{
     font-size: 45px;
+    margin-left: 30px;
 }
 .stars{
     font-size: 37px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 #afficher-plus{
     font-size: 50px;

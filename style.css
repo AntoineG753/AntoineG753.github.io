@@ -303,6 +303,9 @@ p{
     font-family: raleway-bold;
     font-size: 22px;
     text-align: left;
+    margin: 0px;
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 .euro_anonce{
     font-family: raleway-extrabold;
@@ -316,14 +319,6 @@ p{
     margin-top: 30px;
     line-height: 25px;
     height: auto;
-}
-.p_anonce{
-    margin-top: 10px;
-    font-family: raleway-light;
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-align-last: left;
-    margin-left: 15px;
 }
 .fa-star {
 	color: #F2F2F2;
@@ -375,14 +370,17 @@ p{
 }
 .img_hebergements_p{
     margin-top: 0px;
+    margin-bottom: 10px;
 }
 .text_sc2{
     font-size: 19px;
+    margin-left: 15px;
 }
 .stars{
     display: flex;
     position: relative;
     margin-left: 13px;
+    margin-top: 10px;
 }
 #afficher-plus{
     font-family: raleway-extrabold;
@@ -407,9 +405,12 @@ p{
 }
 .titre_populaires{
     font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
 .text_populaires{
     font-size: 18px;
+    margin-left: 25px;
 }
 .fa-chart-line{
     font-size: 30px;
@@ -457,13 +458,6 @@ p{
     margin-left: 25px;
     margin-bottom: 0%;
 }
-.p_anonce_populaires{
-    margin-top: 10px;
-    font-family: raleway-light;
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-left: 25px;
-}
 .div_text_populaires{
     position: relative;
     width: 200px;
@@ -476,6 +470,7 @@ p{
 }
 .p_sc3{
     margin-left: 15px;
+    font-size: 16px;
 }
 .titre_sc3{
     font-size: 25px;
