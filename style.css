@@ -91,9 +91,17 @@ p{
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 45px;
+    border-top: 2px solid transparent;
+}
+.li_header_sinscrire{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 45px;
+    border-top: 2px solid transparent;
 }
 .li_header:hover{
-    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    transition: 0.1s;
 }
 #a_header_media{
     text-decoration: none;
@@ -114,21 +122,8 @@ p{
     color: black;
 }
 .a_header:hover{
-    color:#0065FC;
+    color: #0065FC;
 }
-.a_header:after{
-    content: '';
-    top: 0px;
-    width: 0%;
-    height: 2px;
-    transition: 0.1s;
-}
-.a_header:hover:after{
-    background-color: #0065FC;
-    width:auto;
-    position: absolute;
-    margin-left: 0%;
-} 
 /* ---------SECTION 1--------- */
 /* ---------TEXT--------- */
 #div_sc1{
@@ -446,7 +441,7 @@ p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-#div_stars_populaires{
+.div_stars_populaires{
     position: absolute;
     bottom: 0px;
 }
