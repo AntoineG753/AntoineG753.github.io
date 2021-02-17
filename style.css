@@ -257,7 +257,6 @@ p{
     position: relative;
     height: 50px;
     width: 50px;
-    z-index: 1;
 }
 .fa-money-bill-wave{
     display: flex;
