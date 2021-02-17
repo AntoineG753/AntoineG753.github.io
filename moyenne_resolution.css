@@ -87,7 +87,7 @@ h1{
     font-size: 50px;
     line-height: 70px;
     text-align: center;
-    color: rebeccapurple;
+    color: burlywood;
 }
 #p_sc1{
     font-size: 30px;
@@ -105,7 +105,8 @@ h1{
     font-family: raleway-extrabold;
     text-decoration: black;
     padding-left: 30px;
-    height: 100%;
+    display: block;
+    height: 100px;
 }
 #iconsaisie{
     width: 100%;
