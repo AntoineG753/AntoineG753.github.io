@@ -107,6 +107,7 @@ h1{
     padding-left: 30px;
     display: block;
     border: none;
+    height: max-content;
 }
 #iconsaisie{
     width: 100%;
