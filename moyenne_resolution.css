@@ -105,7 +105,7 @@ h1{
     font-family: raleway-extrabold;
     text-decoration: black;
     padding-left: 30px;
-    height: 105px;
+    height: auto;
 }
 #iconsaisie{
     width: 100%;
