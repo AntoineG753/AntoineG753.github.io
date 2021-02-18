@@ -162,7 +162,7 @@ p{
     font-size: 25px;
     display: block;
     margin-left: 33%;
-    margin-top: 25%;
+    margin-top: 23%;
 }
 #saisie_sc1{
     font-size: 20px;
@@ -632,4 +632,28 @@ p{
     padding-left: 0px;
     list-style: none;
     line-height: 35px;
+}
+@media screen and (max-device-width: 1440px){
+    h1{
+        color: red;
+    }
+    #hebergements{
+        width: 750px;
+    }
+
+/* POPULAIRES */
+
+    #populaires{
+        width: 425px;
+    }
+    #div_img_populaires{
+        align-items: center;
+    }
+    .anonce_populaires{
+        width: 400px;
+    }
+    .titre_populaires{
+        font-size: 15px;
+    }
+
 }
