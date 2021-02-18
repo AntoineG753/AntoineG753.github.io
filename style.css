@@ -485,7 +485,7 @@ p{
     flex-direction: column;
     background-color: white;
     height: 550px;
-    width:355px;
+    width:320px;
     border-radius: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
@@ -494,7 +494,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 355px;
+    width: 320px;
     height: 275px;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
@@ -503,7 +503,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width:355px;
+    width:320px;
     height: 215px;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
@@ -513,7 +513,7 @@ p{
     flex-direction: column;
     background-color: white;
     height: 550px;
-    width:355px;
+    width:320px;
     border-radius: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
@@ -522,7 +522,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width:355px;
+    width:320px;
     height: 225px;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
@@ -531,78 +531,78 @@ p{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width:355px;
+    width:320px;
     height: 275px;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgb(230, 230, 230);
 }
 #img_activité_p1{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité1{
     object-fit: cover;
-    width: 355px;
+    width: 320px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
 }
 #img_activité_p2{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité2{
     object-fit: cover;
     object-position: center;
-    width: 355px;
+    width: 320px;
     height: 224px;
     border-radius: 20px 20px 0px 0px;
 }
 #img_activité_p3{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité3{
     object-fit: cover;
     object-position: top;
-    width: 355px;
+    width: 320px;
     height: 164px;
     border-radius: 20px 20px 0px 0px;
 }
 #img_activité_p4{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité4{
     object-fit: cover;
-    width: 355px;
+    width: 320px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
 }
 #img_activité_p5{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité5{
     object-fit: cover;
     object-position: top;
-    width: 355px;
+    width: 320px;
     height: 174px;
     border-radius: 20px 20px 0px 0px;
 }
 #img_activité_p6{
     margin: 0px;
-    width: 355px;
+    width: 320px;
     height: auto;
 }
 #img_activité6{
     object-fit: cover;
     object-position: top;
-    width: 355px;
+    width: 320px;
     height: 224px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -634,26 +634,132 @@ p{
     line-height: 35px;
 }
 @media screen and (max-device-width: 1440px){
-    h1{
-        color: red;
+    .titre_sc2{
+        margin-left: 0px;
     }
     #hebergements{
-        width: 750px;
+        width: 850px;
+        height: auto;
+    }
+    .anonce_hebergements{
+        width: 250px;
+        height: 240px;
+    }
+    .img_hebergements{
+        height: 145px;
+    }
+    .img_hebergements_p{
+        height: 145px;
+    }
+    .sc2_bold{
+        font-size: 17px;
+    }
+    .text_sc2{
+        font-size: 16px;
+    }
+    .euro_anonce{
+        font-size: 16px;
+    }
+    .stars{
+        font-size: 13px;
     }
 
 /* POPULAIRES */
 
     #populaires{
-        width: 425px;
+        width: 350px;
+        height: 700px;
     }
     #div_img_populaires{
         align-items: center;
     }
     .anonce_populaires{
-        width: 400px;
+        width: 340px;
+        height: 160px;
     }
     .titre_populaires{
-        font-size: 15px;
+        font-size: 17px;
+        margin-left: 20px;
+        line-height: 20px;
+    }
+    .img_populaires_p{
+        height: 160px;
+        width: 150px;
+    }
+    .img_populaires{
+        height: 160px;
+        width: 150px;
+    }
+    .div_text_populaires{
+        height: 150px;
+        width: 175px;
+    }
+    .text_populaires{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .stars_populaires{
+        margin-left: 20px;
     }
 
+    #anonce_2{
+        margin-bottom: 20px;
+    }
+    #anonce_5{
+        margin-bottom: 20px;
+    }
+    #anonce_1{
+        width:320px;
+    }
+    #anonce_2{
+        width: 320px;
+    }
+    #anonce_3{
+        width:320px;
+    }
+    #anonce_4{
+        width:320px;
+    }
+    #anonce_5{
+        width:320px;
+    }
+    #anonce_6{
+        width:320px;
+    }
+    #img_activité_p1{
+        width: 320px;
+    }
+    #img_activité1{
+        width: 320px;
+    }
+    #img_activité_p2{
+        width: 320px;
+    }
+    #img_activité2{
+        width: 320px;
+    }
+    #img_activité_p3{
+        width: 320px;
+    }
+    #img_activité3{
+        width: 320px;
+    }
+    #img_activité_p4{
+        width: 320px;
+    }
+    #img_activité4{
+        width: 320px;
+    }
+    #img_activité_p5{
+        width: 320px;
+    }
+    #img_activité5{
+        width: 320px;
+    }
+    #img_activité_p6{
+        width: 320px;
+    }
+    #img_activité6{
+        width: 320px;
+    }
 }
