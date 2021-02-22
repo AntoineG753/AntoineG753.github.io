@@ -48,6 +48,7 @@ body{
 }
 h1{
     font-family: 'raleway-extrabold';
+    line-height: 25px;
 }
 p{
     font-family: raleway-semibold;
@@ -231,6 +232,7 @@ p{
     width: auto;
     height: 50px;
     padding-left: 0px;
+    margin-bottom: 10px;
 }
 .boutton_filtre:hover{
     transition: 0.1s;
@@ -619,10 +621,11 @@ p{
     max-width: 1355px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     height: auto;
     margin-left: 35px;
-    padding: 40px 400px 40px 0px;
+    padding: 40px 25% 40px 0px;
     justify-content: space-between;
 }
 .p_footer{
