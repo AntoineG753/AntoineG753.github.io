@@ -9,10 +9,10 @@
 }
 .logo_header{
     width:  auto;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 #logo{
-    width: 290px;
+    width: 5em;
     padding-left: 10px;
 }
 .ul_header{
@@ -39,8 +39,12 @@
     border-bottom: 5px solid #0065fC;
     border-top: none;
 }
+.li_header_sinscrire{
+    padding-top: 5px;
+}
 #a_header_media{
     text-decoration: none;
+    font-size: 0.5em;
 }
 .a_header{
     text-decoration:none;
@@ -50,10 +54,12 @@
 }
 #sinscrire_media{
     position: absolute;
-    padding-top: 35px;
+    padding-top: 0px;
     right: 0px;
-    margin-right: 50px;
+    margin-right: 0px;
+    width: 5em;
 }
+
 /* -------- SECTION 1 --------*/
 
 /* --- Titre --- */
