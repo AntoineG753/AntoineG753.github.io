@@ -1120,12 +1120,10 @@ p{
             font-size: 50px;
             line-height: 70px;
             text-align: center;
-            color: burlywood;
         }
         #p_sc1{
             font-size: 30px;
             text-align: center;
-            color: burlywood;
         }
         /* --- Champ de recherche --- */
         #form_sc1{
@@ -1491,7 +1489,6 @@ p{
         }
         .div_ul_footer{
             padding-right: 30px;
-            border-right: 4px solid burlywood;
         }
 }
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px){
