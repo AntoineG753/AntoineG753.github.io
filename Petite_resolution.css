@@ -1,11 +1,13 @@
 /* -------- HEADER --------*/
+
 #conteneur_body{
-    width: 100%;
+    width: auto;
     padding: 0px;
 }
 #header{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .logo_header{
     width:  auto;
