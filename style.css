@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1720px;
+    max-width: 1500px;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -296,15 +296,15 @@ p{
 /* ---------SECTION 2--------- */
 .sc2_bold{
     font-family: raleway-bold;
-    font-size: 22px;
+    font-size: 1em;
     text-align: left;
     margin: 0px;
     margin-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .euro_anonce{
     font-family: raleway-extrabold;
-    font-size: 18px;
+    font-size: 0.9em;
 }
 #div_sc2{
     display: flex;
@@ -331,9 +331,9 @@ p{
 #hebergements{
     border-radius: 20px;
     background-color: #F2F2F2;
-    width: 1100px;
-    height: auto;
-    min-height: 750px;
+    width: 900px;
+    height: 650px;
+    min-height: 650px;
     padding-right: 35px;
     padding-left: 35px;
     margin-bottom: 30px;
@@ -349,8 +349,8 @@ p{
 .anonce_hebergements{
     
     background-color: white;
-    width: 330px;
-    height: 250px;
+    width: 250px;
+    height: 205px;
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 5px;
@@ -360,7 +360,7 @@ p{
     display: block;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 155px;
+    height: 120px;
     object-fit: cover;
 }
 .img_hebergements_p{
@@ -368,14 +368,15 @@ p{
     margin-bottom: 10px;
 }
 .text_sc2{
-    font-size: 19px;
+    font-size: 0.9em;
     margin-left: 15px;
 }
 .stars{
     display: flex;
     position: relative;
     margin-left: 13px;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 0.7em;
 }
 #afficher-plus{
     font-family: raleway-extrabold;
@@ -385,9 +386,9 @@ p{
 #populaires{
     border-radius: 20px;
     background-color: #F2F2F2;
-    width: 430px;
-    height: auto;
-    min-height: 750px;
+    width: 390px;
+    height: 650px;
+    min-height: 650px;
     padding-right: 35px;
     padding-left: 35px;
     margin-top: 0%;
@@ -399,12 +400,13 @@ p{
     font-size: 25px;
 }
 .titre_populaires{
-    font-size: 20px;
+    font-size: 1em;
     margin-left: 25px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .text_populaires{
-    font-size: 18px;
+    font-size: 0.9em;
     margin-left: 25px;
 }
 .fa-chart-line{
@@ -422,14 +424,14 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 630px;
+    height: 540px;
 }
 .anonce_populaires{
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 420px;
-    height: 165px;
+    width: auto;
+    height: 145px;
     border-radius: 20px 20px 20px 20px;
     padding: 5px;
     box-shadow: 0px 2px 5px 4px rgb(230, 230, 230);
@@ -437,7 +439,7 @@ p{
 .img_populaires{
     border-radius: 20px 0px 0px 20px;
     width: 170px;
-    height: 165px;
+    height: 145px;
     object-fit: cover;
 }
 .img_populaires_p{
@@ -451,12 +453,13 @@ p{
 .stars_populaires{
     display: flex;
     margin-left: 25px;
-    margin-bottom: 0%;
+    margin-bottom: 5px;
+    font-size: 0.7em;
 }
 .div_text_populaires{
     position: relative;
     width: 200px;
-    height: 155px;
+    height: 140px;
     text-align: left;
 }
 /* ---------SECTION 3--------- */
@@ -615,17 +618,23 @@ p{
     background-color: #F2F2F2;
     height: auto;
     justify-content: center;
+    padding-right: auto;
+    padding-left: auto;
 }
 #conteneure_div_footer{
-    width: 1355px;
-    max-width: 1355px;
+    width: 1500px;
+    max-width: 1500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #F2F2F2;
     height: auto;
-    margin-left: 35px;
-    padding: 40px 25% 40px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    
     justify-content: space-between;
 }
 .p_footer{
