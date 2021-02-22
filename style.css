@@ -393,7 +393,7 @@ p{
 }
 .titre_sc2{
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: 25px;
 }
 .titre_populaires{
@@ -634,9 +634,6 @@ p{
     line-height: 35px;
 }
 @media screen and (max-device-width: 1440px){
-    .titre_sc2{
-        margin-left: 0px;
-    }
     #hebergements{
         width: 850px;
         height: auto;
