@@ -1505,7 +1505,7 @@ p{
             font-size: 1.4em;
         }
         #hebergements{
-            width: 800px;
+            width: 780px;
             height: 100%;
         }
         .anonce_hebergements{
@@ -1534,7 +1534,7 @@ p{
 /* POPULAIRES */
 
         #populaires{
-            width: 320px;
+            width: 300px;
             height: 100%;
         }
         #div_img_populaires{
