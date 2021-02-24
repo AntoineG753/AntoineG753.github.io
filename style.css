@@ -316,7 +316,7 @@ p{
     justify-content: space-between;
     margin-top: 30px;
     line-height: 25px;
-    height: auto
+    height: auto;
 }
 .fa-star {
 	color: #F2F2F2;
@@ -1501,130 +1501,131 @@ p{
 @media screen and (min-width: 1025px) and (max-width: 1440px){
         .titre_sc2{
             margin-left: 0px;
-            color: blueviolet;
+            font-size: 1.4em;
         }
         #hebergements{
-            width: 850px;
-            height: auto;
+            width: 800px;
+            height: 100%;
         }
         .anonce_hebergements{
-            width: 250px;
-            height: 240px;
+            width: 225px;
+            height: 200px;
         }
         .img_hebergements{
-            height: 145px;
+            height: 100%;
         }
         .img_hebergements_p{
-            height: 145px;
+            height: 110px;
         }
         .sc2_bold{
-            font-size: 17px;
+            font-size: 0.85em;
         }
         .text_sc2{
-            font-size: 16px;
+            font-size: 0.8;
         }
         .euro_anonce{
-            font-size: 16px;
+            font-size: 0.8em;
         }
         .stars{
-            font-size: 13px;
+            font-size: 0.8em;
         }
 
 /* POPULAIRES */
 
         #populaires{
-            width: 350px;
-            height: 700px;
+            width: 320px;
+            height: 100%;
         }
         #div_img_populaires{
             align-items: center;
         }
         .anonce_populaires{
-            width: 340px;
-            height: 160px;
+            width: 300px;
+            height: 130px;
         }
         .titre_populaires{
-            font-size: 17px;
+            font-size: 0.85em;
             margin-left: 20px;
             line-height: 20px;
         }
         .img_populaires_p{
-            height: 160px;
-            width: 150px;
+            height: 130px;
+            width: 120px;
         }
         .img_populaires{
-            height: 160px;
-            width: 150px;
+            height: 100%;
+            width: 100%;
         }
         .div_text_populaires{
-            height: 150px;
+            height: 125px;
             width: 175px;
         }
         .text_populaires{
-            font-size: 16px;
+            font-size: 0.80em;
             margin-left: 20px;
         }
         .stars_populaires{
-            margin-left: 20px;
+            margin-left: 18px;
+            font-size: 0.7em;
         }
-        #anonce_2{
-            margin-bottom: 20px;
-        }
-        #anonce_5{
-            margin-bottom: 20px;
+    /* SC3 */
+        .titre_sc3{
+            font-size: 1.4em;
         }
         #anonce_1{
-            width:320px;
+            width:290px;
         }
         #anonce_2{
-            width: 320px;
+            width: 290px;
+            margin-bottom: 20px;
         }
         #anonce_3{
-            width:320px;
+            width:290px;
         }
         #anonce_4{
-            width:320px;
+            width:290px;
         }
         #anonce_5{
-            width:320px;
+            width:290px;
+            margin-bottom: 20px;
         }
         #anonce_6{
-            width:320px;
+            width:290px;
         }
         #img_activité_p1{
-            width: 320px;
+            width: 100%;
         }
         #img_activité1{
-            width: 320px;
+            width: 100%;
         }
         #img_activité_p2{
-            width: 320px;
+            width: 100%;
         }
         #img_activité2{
-            width: 320px;
+            width: 100%;
         }
         #img_activité_p3{
-            width: 320px;
+            width: 100%;
         }
         #img_activité3{
-            width: 320px;
+            width: 100%;
         }
         #img_activité_p4{
-            width: 320px;
+            width: 100%;
         }
         #img_activité4{
-            width: 320px;
+            width: 100%;
         }
         #img_activité_p5{
-            width: 320px;
+            width: 100%;
         }
         #img_activité5{
-            width: 320px;
+            width: 100%;
         }
         #img_activité_p6{
-            width: 320px;
+            width: 100%;
         }
         #img_activité6{
-            width: 320px;
+            width: 100%;
         }
 }
