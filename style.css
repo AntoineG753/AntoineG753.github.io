@@ -715,16 +715,17 @@ p {
   #form_sc1{
       height: 12vw;
       width: 100%;
+      position: relative;
+      border-radius: 20px;
       border-top: 2px solid #f2f2f2;
       border-bottom: 2px solid #f2f2f2;
-      border-radius: 20px;
+      align-items: center;
   }
   #iconsaisie{
       height: 12vw;
       width: 100%;
       border-radius: 20px 0px 0px 20px;
       border: none;
-      z-index: 0;
   }
   #saisie_sc1{
     font-size: 5vw;
@@ -743,14 +744,113 @@ p {
     margin-top: 4vw;
   }
   #boutton_sc1_bis{
-      position: relative;
       width: 13vw;
       height: 12.5vw;
       z-index: 2;
       font-size: 5vw;
       border-radius: 15px 15px 15px 15px;
+      position: relative;
   }
   #boutton_sc1{
     visibility: hidden;
+  }
+  #filtre{
+      flex-direction: column;
+  }
+  #titre_filtre{
+      text-align: left;
+  }
+  #span_boutton_filtre{
+    width: 100%;
+  }
+  .boutton_filtre{
+      height: 11vw;
+      border-radius: 25px;
+      margin-left: 5px;
+      border: 2px solid #f2f2f2;
+      margin-bottom: 3vw;
+      border-left: none;
+  }
+  .icon_filtre{
+      height: 11vw;
+      width: 11vw;
+      border-radius: 25px;
+      font-size: 4vw;
+  }
+  .text_info{
+      font-size: 5vw;
+      margin-left: 13vw;
+      margin-right: 2vw;
+  }
+  #info_sc1{
+      height: 5vw;
+      width: 6.5vw;
+      border-radius: 25px;
+      margin-bottom: 3.5vw;
+      margin-right: 3vw;
+      border: 1.8px solid #f2f2f2;
+      text-align: center;
+  }
+  .fa-info{
+      font-size: 3.5vw;
+   
+  }
+  #information_sc1{
+      font-size: 4.2vw;
+      line-height: 4vw;
+  }
+  /* Section 2*/
+  #div_sc2{
+      flex-direction: column-reverse;
+  }
+  #populaires{
+      width: 100%;
+      height: 160vw;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 5vw;
+  }
+  .titre_sc2{
+      font-size: 6vw;
+      margin-left: 5.5%;
+  }
+  .anonce_populaires{
+      height: 40vw;
+      margin-top: 5vw;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 25px;
+      padding: 1.1vw;
+      width: 87vw;
+  }
+  .img_populaires{
+      height: 100%;
+      width: 40vw;
+      border-radius: 25px 0 0 25px;
+  }
+  .div_text_populaires{
+      width: 70vw;
+      height: 89%;
+      margin-left: 4.5vw;
+      margin-top: 3vw;
+  }
+  .titre_populaires{
+      font-size: 3.9vw;
+      line-height: 5vw;
+      height: 15vw;
+  }
+  .text_populaires{
+      font-size: 3.5vw;
+  }
+  .euro_anonce{
+      font-size: 3.5vw;
+  }
+  .fa-chart-line{
+      margin-top: 4vw;
+      margin-right: 5.5%;
+      font-size: 5vw;
+  }
+  .stars_populaires{
+      font-size: 3.1vw;
   }
 }
