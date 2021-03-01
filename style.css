@@ -1092,15 +1092,13 @@ p {
     height: 12vw;
     width: 100%;
     position: relative;
-    border-radius: 25px;
+    border-radius: 3.7vw;
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
     align-items: center;
   }
   #iconsaisie {
-    height: 12vw;
     width: 100%;
-    border-radius: 25px 0px 0px 25px;
     border: none;
   }
   #saisie_sc1 {
@@ -1110,8 +1108,8 @@ p {
   }
   #icon_sc1 {
     width: 15vw;
-    border-radius: 25px 0px 0px 25px;
-    height: 12.8vw;
+    border-radius: 3.7vw 0 0 3.7vw;
+    height: 12.6vw;
   }
   #icon_sc1.fas.fa-map-marker-alt::before {
     font-size: 4.8vw;
@@ -1125,10 +1123,10 @@ p {
   }
   #boutton_sc1 {
     width: 20vw;
-    height: 12.5vw;
+    height: 12.35vw;
     z-index: 3;
     font-size: 3vw;
-    border-radius: 25px;
+    border-radius: 3.7vw;
     position: relative;
   }
   #filtre {
@@ -1153,7 +1151,7 @@ p {
   .icon_filtre {
     height: 11vw;
     width: 11vw;
-    border-radius: 50px;
+    border-radius: 6vw;
     font-size: 4vw;
   }
   .text_info {
@@ -1164,7 +1162,7 @@ p {
   #info_sc1 {
     height: 5vw;
     width: 6.5vw;
-    border-radius: 25px;
+    border-radius: 3.7vw;
     margin-bottom: 4.7vw;
     margin-right: 3vw;
     border: 1.8px solid #f2f2f2;
