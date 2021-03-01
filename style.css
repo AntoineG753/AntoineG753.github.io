@@ -1185,7 +1185,7 @@ p {
     }
     #populaires {
       width: 100%;
-      height: 160vw;
+      height: 145vw;
       padding-right: 0;
       padding-left: 0;
       padding-top: 5vw;
@@ -1195,7 +1195,7 @@ p {
       margin-left: 5.5%;
     }
     .anonce_populaires {
-      height: 40vw;
+      height: 35vw;
       margin-top: 5vw;
       margin-left: auto;
       margin-right: auto;
@@ -1215,15 +1215,15 @@ p {
       margin-top: 3vw;
     }
     .titre_populaires {
-      font-size: 3.9vw;
+      font-size: 3.8vw;
       line-height: 5vw;
       height: 15vw;
     }
     .text_populaires {
-      font-size: 3.5vw;
+      font-size: 3.1vw;
     }
     .euro_anonce {
-      font-size: 3.5vw;
+      font-size: 3.1vw;
     }
     .fa-chart-line {
       margin-top: 4vw;
