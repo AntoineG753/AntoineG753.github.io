@@ -1019,382 +1019,381 @@ p {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-    /* -------- HEADER --------*/
-    #conteneur_body {
-      width: 100%;
-      padding: 0;
-    }
-    #header {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .logo_header {
-      width: auto;
-      margin-left: 5vw;
-    }
-    #logo {
-      width: 25vw;
-      padding-left: 0.2vw;
-    }
-    #sinscrire_media {
-      position: absolute;
-      padding-top: 2vw;
-      right: 0;
-      margin-right: 5vw;
-    }
-    #a_header_media {
-      text-decoration: none;
-      font-size: 5vw;
-    }
-    .li_header {
-      font-size: 5vw;
-    }
-    .li_header {
-      padding-bottom: 2.4vw;
-      margin-top: 2vw;
-      width: 100%;
-      text-align: center;
-      border-bottom: 2px solid #f2f2f2;
-    }
-    .li_header:hover {
-      border-top: none;
-      border-bottom: 2px solid #0065fc;
-      transition: 0.2s;
-    }
-    .li_header_sinscrire {
-      padding-right: 1.5vw;
-      padding-left: 1.5vw;
-      padding-top: 2.4vw;
-      border-top: 0.17vw solid transparent;
-    }
-    #ul_header_media {
-      width: 100%;
-      padding-left: 0;
-    }
-    /*Section 1 */
-    #div_sc1 {
-      margin-left: 5vw;
-      margin-right: 5vw;
-      
-    }
-    h1 {
-      font-size: 6vw;
-      line-height: 7vw;
-      text-align: center;
-    }
-    #p_sc1 {
-      padding-top: 0.8vw;
-      font-size: 4.3vw;
-      text-align: center;
-      margin-bottom: 7vw;
-    }
-    #form_sc1 {
-      height: 12vw;
-      width: 100%;
-      position: relative;
-      border-radius: 25px;
-      border-top: 2px solid #f2f2f2;
-      border-bottom: 2px solid #f2f2f2;
-      align-items: center;
-    }
-    #iconsaisie {
-      height: 12vw;
-      width: 100%;
-      border-radius: 25px 0px 0px 25px;
-      border: none;
-    }
-    #saisie_sc1 {
-      font-size: 5vw;
-      width: 100%;
-      margin-left: 15px;
-    }
-    #icon_sc1 {
-      width: 15vw;
-      border-radius: 25px 0px 0px 25px;
-      height: 12.8vw;
-    }
-    #icon_sc1.fas.fa-map-marker-alt::before {
-      font-size: 4.8vw;
-      display: block;
-      margin-left: 4.5vw;
-      margin-top: 4vw;
-    }
-    #boutton_sc1_bis {
-        position: absolute;
-        visibility: hidden;
-        }
-    #boutton_sc1 {
-        width: 20vw;
-        height: 12.5vw;
-        z-index: 3;
-        font-size: 3vw;
-        border-radius: 25px;
-        position: relative;
-    }
-    #filtre {
-      flex-direction: column;
-      margin-top: 8vw;
-    }
-    #titre_filtre {
-      font-size: 6vw;
-    }
-    #span_boutton_filtre {
-      width: 100%;
-      justify-content: center;
-    }
-    .boutton_filtre {
-      height: 11vw;
-      border-radius: 50px;
-      margin-left: 5px;
-      border: 2px solid #f2f2f2;
-      margin-bottom: 3vw;
-      border-left: none;
-    }
-    .icon_filtre {
-      height: 11vw;
-      width: 11vw;
-      border-radius: 50px;
-      font-size: 4vw;
-    }
-    .text_info {
-      font-size: 5vw;
-      margin-left: 13vw;
-      margin-right: 2vw;
-    }
-    #info_sc1 {
-      height: 5vw;
-      width: 6.5vw;
-      border-radius: 25px;
-      margin-bottom: 4.7vw;
-      margin-right: 3vw;
-      border: 1.8px solid #f2f2f2;
-      text-align: center;
-    }
-    .fa-info {
-      font-size: 3.5vw;
-      margin-top: 0.2vw;
-    }
-    #information_sc1 {
-      font-size: 4.2vw;
-      line-height: 4.9vw;
-    }
-    /* Section 2*/
-    #div_sc2 {
-      flex-direction: column-reverse;
-    }
-    #populaires {
-      width: 100%;
-      height: 145vw;
-      padding-right: 0;
-      padding-left: 0;
-      padding-top: 5vw;
-    }
-    .titre_sc2 {
-      font-size: 6vw;
-      margin-left: 5.5%;
-    }
-    .anonce_populaires {
-      height: 35vw;
-      margin-top: 5vw;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 25px;
-      padding: 1vw;
-      width: 87vw;
-    }
-    .img_populaires {
-      height: 100%;
-      width: 40vw;
-      border-radius: 25px 0 0 25px;
-    }
-    .div_text_populaires {
-      width: 70vw;
-      height: 89%;
-      margin-left: 4.5vw;
-      margin-top: 3vw;
-    }
-    .titre_populaires {
-      font-size: 3.8vw;
-      line-height: 5vw;
-      height: 15vw;
-    }
-    .text_populaires {
-      font-size: 3.1vw;
-    }
-    .euro_anonce {
-      font-size: 3.1vw;
-    }
-    .fa-chart-line {
-      margin-top: 4vw;
-      margin-right: 5.5%;
-      font-size: 5vw;
-    }
-    .stars_populaires {
-      font-size: 3.1vw;
-    }
-    /* Hebergement */
-    #hebergements {
-      width: 100%;
-      padding: 0;
-      background: none;
-    }
-    .anonce_hebergements {
-      width: 43.5vw;
-      height: 40vw;
-      border-radius: 20px;
-      padding: 1vw;
-      margin-bottom: 4.5vw;
-    }
-    #HAM_sc2 {
-      margin-bottom: 6vw;
-      text-align: center;
-    }
-    .img_hebergements {
-      height: 23vw;
-      border-radius: 20px 20px 0 0;
-    }
-    .sc2_bold {
-      font-size: 2.8vw;
-      height: 5vw;
-      margin-top: 3vw;
-      margin-left: 2vw;
-    }
-    .text_sc2 {
-      font-size: 2.8vw;
-      margin-left: 2vw;
-    }
-    .stars {
-      font-size: 2.7vw;
-      margin-top: 3.5vw;
-      margin-left: 2vw;
-    }
-    #afficher-plus {
-      font-size: 4.4vw;
-     margin-left: 35vw;
-    }
-    /* section 3*/
-    #section_3 {
-      margin-left: 5.5%;
-      margin-right: 5.5%;
-    }
-    #div_anonce_sc3 {
-      width: 100%;
-    }
-    .titre_sc3 {
-      font-size: 6vw;
-      text-align: center;
-    }
-    .p_sc3 {
-      font-size: 2.5vw;
-      margin-top: 3vw;
-      text-align: center;
-      margin-left: 0;
-    }
-    #anonce_1 {
-      width: 42vw;
-      height: 72vw;
-      border-radius: 20px;
-      margin-top: 20vw;
-    }
-    #anonce_2 {
-      width: 42vw;
-      height: 55vw;
-      border-radius: 20px;
-      margin-bottom: 5vw;
-    }
-    #anonce_3 {
-      width: 42vw;
-      height: 55vw;
-      border-radius: 20px;
-      margin-bottom: 5vw;
-    }
-    #anonce_4 {
-      width: 42vw;
-      height: 72vw;
-      border-radius: 20px;
-      margin-top: 20vw;
-    }
-    #anonce_5 {
-      width: 42vw;
-      height: 55vw;
-      border-radius: 20px;
-      margin-bottom: 5vw;
-    }
-    #anonce_6 {
-      width: 42vw;
-      height: 55vw;
-      border-radius: 20px;
-      margin-bottom: 5vw;
-    }
-    #img_activité1 {
-      border-radius: 20px 20px 0 0;
-      height: 63vw;
-    }
-    #img_activité_p1 {
-      border-radius: 20px 20px 0 0;
-      height: 63vw;
-    }
-    #img_activité2 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité_p2 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité3 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité_p3 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité4 {
-      border-radius: 20px 20px 0 0;
-      height: 63vw;
-    }
-    #img_activité_p4 {
-      border-radius: 20px 20px 0 0;
-      height: 63vw;
-    }
-    #img_activité5 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité_p5 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité6 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    #img_activité_p6 {
-      border-radius: 20px 20px 0 0;
-      height: 46vw;
-    }
-    /* FOOTER */
-    #conteneure_div_footer {
-      margin-left: 5.5%;
-      padding-left: 0;
-      padding-top: 9vw;
-      padding-right: 0;
-      width: 90vw;
-    }
-    .p_footer {
-      font-size: 3vw;
-      margin-bottom: 1.6vw;
-    }
-    .ul_footer {
-      margin-top: 1vw;
-    }
-    #conteneure_div_footer a {
-      font-size: 2vw;
-      line-height: 4vw;
-    }
-    .div_ul_footer {
-      margin-bottom: 3vw;
-    }
+  /* -------- HEADER --------*/
+  #conteneur_body {
+    width: 100%;
+    padding: 0;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo_header {
+    width: auto;
+    margin-left: 5vw;
+  }
+  #logo {
+    width: 25vw;
+    padding-left: 0.2vw;
+  }
+  #sinscrire_media {
+    position: absolute;
+    padding-top: 2vw;
+    right: 0;
+    margin-right: 5vw;
+  }
+  #a_header_media {
+    text-decoration: none;
+    font-size: 5vw;
+  }
+  .li_header {
+    font-size: 5vw;
+  }
+  .li_header {
+    padding-bottom: 2.4vw;
+    margin-top: 2vw;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .li_header:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    transition: 0.2s;
+  }
+  .li_header_sinscrire {
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 2.4vw;
+    border-top: 0.17vw solid transparent;
+  }
+  #ul_header_media {
+    width: 100%;
+    padding-left: 0;
+  }
+  /*Section 1 */
+  #div_sc1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  h1 {
+    font-size: 6vw;
+    line-height: 7vw;
+    text-align: center;
+  }
+  #p_sc1 {
+    padding-top: 0.8vw;
+    font-size: 4.3vw;
+    text-align: center;
+    margin-bottom: 7vw;
+  }
+  #form_sc1 {
+    height: 12vw;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    align-items: center;
+  }
+  #iconsaisie {
+    height: 12vw;
+    width: 100%;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+  }
+  #saisie_sc1 {
+    font-size: 5vw;
+    width: 100%;
+    margin-left: 15px;
+  }
+  #icon_sc1 {
+    width: 15vw;
+    border-radius: 25px 0px 0px 25px;
+    height: 12.8vw;
+  }
+  #icon_sc1.fas.fa-map-marker-alt::before {
+    font-size: 4.8vw;
+    display: block;
+    margin-left: 4.5vw;
+    margin-top: 4vw;
+  }
+  #boutton_sc1_bis {
+    position: absolute;
+    visibility: hidden;
+  }
+  #boutton_sc1 {
+    width: 20vw;
+    height: 12.5vw;
+    z-index: 3;
+    font-size: 3vw;
+    border-radius: 25px;
+    position: relative;
+  }
+  #filtre {
+    flex-direction: column;
+    margin-top: 8vw;
+  }
+  #titre_filtre {
+    font-size: 6vw;
+  }
+  #span_boutton_filtre {
+    width: 100%;
+    justify-content: center;
+  }
+  .boutton_filtre {
+    height: 11vw;
+    border-radius: 50px;
+    margin-left: 5px;
+    border: 2px solid #f2f2f2;
+    margin-bottom: 3vw;
+    border-left: none;
+  }
+  .icon_filtre {
+    height: 11vw;
+    width: 11vw;
+    border-radius: 50px;
+    font-size: 4vw;
+  }
+  .text_info {
+    font-size: 5vw;
+    margin-left: 13vw;
+    margin-right: 2vw;
+  }
+  #info_sc1 {
+    height: 5vw;
+    width: 6.5vw;
+    border-radius: 25px;
+    margin-bottom: 4.7vw;
+    margin-right: 3vw;
+    border: 1.8px solid #f2f2f2;
+    text-align: center;
+  }
+  .fa-info {
+    font-size: 3.5vw;
+    margin-top: 0.2vw;
+  }
+  #information_sc1 {
+    font-size: 4.2vw;
+    line-height: 4.9vw;
+  }
+  /* Section 2*/
+  #div_sc2 {
+    flex-direction: column-reverse;
+  }
+  #populaires {
+    width: 100%;
+    height: 145vw;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 5vw;
+  }
+  .titre_sc2 {
+    font-size: 6vw;
+    margin-left: 5.5%;
+  }
+  .anonce_populaires {
+    height: 35vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 1vw;
+    width: 87vw;
+  }
+  .img_populaires {
+    height: 100%;
+    width: 40vw;
+    border-radius: 25px 0 0 25px;
+  }
+  .div_text_populaires {
+    width: 70vw;
+    height: 89%;
+    margin-left: 4.5vw;
+    margin-top: 3vw;
+  }
+  .titre_populaires {
+    font-size: 3.8vw;
+    line-height: 5vw;
+    height: 15vw;
+  }
+  .text_populaires {
+    font-size: 3.1vw;
+  }
+  .euro_anonce {
+    font-size: 3.1vw;
+  }
+  .fa-chart-line {
+    margin-top: 4vw;
+    margin-right: 5.5%;
+    font-size: 5vw;
+  }
+  .stars_populaires {
+    font-size: 3.1vw;
+  }
+  /* Hebergement */
+  #hebergements {
+    width: 100%;
+    padding: 0;
+    background: none;
+  }
+  .anonce_hebergements {
+    width: 43.5vw;
+    height: 40vw;
+    border-radius: 20px;
+    padding: 1vw;
+    margin-bottom: 4.5vw;
+  }
+  #HAM_sc2 {
+    margin-bottom: 6vw;
+    text-align: center;
+  }
+  .img_hebergements {
+    height: 23vw;
+    border-radius: 20px 20px 0 0;
+  }
+  .sc2_bold {
+    font-size: 2.8vw;
+    height: 5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+  }
+  .text_sc2 {
+    font-size: 2.8vw;
+    margin-left: 2vw;
+  }
+  .stars {
+    font-size: 2.7vw;
+    margin-top: 3.5vw;
+    margin-left: 2vw;
+  }
+  #afficher-plus {
+    font-size: 4.4vw;
+    margin-left: 35vw;
+  }
+  /* section 3*/
+  #section_3 {
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+  #div_anonce_sc3 {
+    width: 100%;
+  }
+  .titre_sc3 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .p_sc3 {
+    font-size: 2.5vw;
+    margin-top: 3vw;
+    text-align: center;
+    margin-left: 0;
+  }
+  #anonce_1 {
+    width: 42vw;
+    height: 72vw;
+    border-radius: 20px;
+    margin-top: 20vw;
+  }
+  #anonce_2 {
+    width: 42vw;
+    height: 55vw;
+    border-radius: 20px;
+    margin-bottom: 5vw;
+  }
+  #anonce_3 {
+    width: 42vw;
+    height: 55vw;
+    border-radius: 20px;
+    margin-bottom: 5vw;
+  }
+  #anonce_4 {
+    width: 42vw;
+    height: 72vw;
+    border-radius: 20px;
+    margin-top: 20vw;
+  }
+  #anonce_5 {
+    width: 42vw;
+    height: 55vw;
+    border-radius: 20px;
+    margin-bottom: 5vw;
+  }
+  #anonce_6 {
+    width: 42vw;
+    height: 55vw;
+    border-radius: 20px;
+    margin-bottom: 5vw;
+  }
+  #img_activité1 {
+    border-radius: 20px 20px 0 0;
+    height: 63vw;
+  }
+  #img_activité_p1 {
+    border-radius: 20px 20px 0 0;
+    height: 63vw;
+  }
+  #img_activité2 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité_p2 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité3 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité_p3 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité4 {
+    border-radius: 20px 20px 0 0;
+    height: 63vw;
+  }
+  #img_activité_p4 {
+    border-radius: 20px 20px 0 0;
+    height: 63vw;
+  }
+  #img_activité5 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité_p5 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité6 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  #img_activité_p6 {
+    border-radius: 20px 20px 0 0;
+    height: 46vw;
+  }
+  /* FOOTER */
+  #conteneure_div_footer {
+    margin-left: 5.5%;
+    padding-left: 0;
+    padding-top: 9vw;
+    padding-right: 0;
+    width: 90vw;
+  }
+  .p_footer {
+    font-size: 3vw;
+    margin-bottom: 1.6vw;
+  }
+  .ul_footer {
+    margin-top: 1vw;
+  }
+  #conteneure_div_footer a {
+    font-size: 2vw;
+    line-height: 4vw;
+  }
+  .div_ul_footer {
+    margin-bottom: 3vw;
+  }
 }
